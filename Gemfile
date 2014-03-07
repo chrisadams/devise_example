@@ -1,12 +1,15 @@
 source 'https://rubygems.org'
 
-ruby "2.1.0"
+ruby "1.9.3"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
 # Use Devise for user authentication
-gem 'devise', :git => 'git://github.com/plataformatec/devise.git', :ref => '49aebde'
+gem 'devise'
+
+# Token authenticable was removed from stock devise, this gem adds it back
+gem 'devise-token_authenticatable'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
