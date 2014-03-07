@@ -1,6 +1,6 @@
-This is a fork of a devise_example that I quickly modified and stripped down to demonstrate simple authentication system functionality asked for by a job interviewer.
+### This is a fork of a devise_example that I quickly modified and stripped down to demonstrate simple authentication system functionality asked for by a job interviewer.
 
-# Below is the README.md for the forked project:
+# Below is the original README.md:
 
 # Devise Example for Rails 4.0.0
 
